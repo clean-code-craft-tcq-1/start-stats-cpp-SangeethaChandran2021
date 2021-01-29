@@ -8,10 +8,10 @@ namespace Statistics {
 		float avg;
 		Stats()
 		{
-	       min = 0.0f;
+	           min = 0.0f;
 		   max = 0.0f;
 		   avg = 0.0f;
 		}
-	}tStats;
-    Stats ComputeStatistics(const std::vector<float>& tVect);
+	};
+    Stats ComputeStatistics(const std::vector<float>& vect);
 }
