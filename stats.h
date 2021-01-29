@@ -13,5 +13,5 @@ namespace Statistics {
 		   avg = 0.0f;
 		}
 	}tStats;
-    Stats ComputeStatistics(const std::vector<float>& vect);
+    Stats ComputeStatistics(const std::vector<float>& tVect);
 }
