@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace Statistics;
 
-Stats Statistics::ComputeStatistics(const std::vector<float>& vect) 
+Stats Statistics::ComputeStatistics(const std::vector<float>& tVect) 
 {
    Stats tStats;
    float sum = 0.0F;
