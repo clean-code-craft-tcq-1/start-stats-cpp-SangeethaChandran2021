@@ -9,7 +9,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vect)
    
    for(std::vector<float>::const_iterator itr = vect.begin(); itr!=vect.end(); ++itr)
    {
-      sum+ = *itr;
+      sum+= *itr;
    }
    tStats.min = *std::min_element(vect.begin(),vect.end());
    tStats.max = *std::max_element(vect.begin(),vect.end());
